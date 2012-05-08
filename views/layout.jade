@@ -11,8 +11,8 @@ html
       #title= title
 
       ul#nav
-        li
-          a(href='#') Home
-          a(href='#') About
+        for page in pages
+          li
+            a(href='/' + page.slug)= page.title
 
       .essay!= body
