@@ -3,4 +3,16 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
-  body!= body
+    if theme
+      link(rel='stylesheet', href='/themes/' + theme + '/css/style.css')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora')
+  body
+    #main
+      #title= title
+
+      ul#nav
+        li
+          a(href='#') Home
+          a(href='#') About
+
+      .essay!= body

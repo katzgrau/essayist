@@ -1,0 +1,8 @@
+body {
+	background-image: url(../img/wallpaper.gif);
+}
+
+#title, #nav li a {
+	color: #FDFCDC;
+	text-shadow: 1px 1px #000;
+}
