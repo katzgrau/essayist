@@ -36,7 +36,7 @@ app.get('/:slug', routes.content);
 // Configure Essayist
 essayist.config({
   theme: 'boxers',
-  title: 'Logic'
+  title: 'Essayist'
 });
 
 app.listen(process.env.PORT || 3000, function(){
