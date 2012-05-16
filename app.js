@@ -30,13 +30,15 @@ app.configure('production', function(){
 
 // Routes
  
+app.get('/sitemap.xml', routes.sitemap);
 app.get('/', routes.content);
 app.get('/:slug', routes.content);
 
 // Configure Essayist
 essayist.config({
   theme: 'boxers',
-  title: 'Essayist'
+  title: 'Essayist',
+  description: 'An Essay Publishing App'
 });
 
 app.listen(process.env.PORT || 3000, function(){
