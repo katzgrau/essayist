@@ -132,6 +132,7 @@ pre {
 	margin-left: 60px;
 	padding-left: 10px;
 	border-left: 4px solid #3879D9;
+    overflow: hidden;
 }
 
 /* Add nag */
