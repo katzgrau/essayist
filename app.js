@@ -38,7 +38,14 @@ app.get('/:slug', routes.content);
 essayist.config({
   theme: 'boxers',
   title: 'Essayist',
-  description: 'An Essay Publishing App'
+  description: 'An Essay Publishing App',
+  ads: false,
+  ad: '',
+  hostOverrides: {
+    'localhost:3000': {
+      title: 'Essayist'
+    }
+  }
 });
 
 app.listen(process.env.PORT || 3000, function(){

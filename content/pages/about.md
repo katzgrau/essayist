@@ -1,6 +1,8 @@
 <!--
-title: About this site
+title: About Essayist
 linktext: About
 listorder: 2
 -->
-# OMFG
+# By Who?
+
+[Kenny Katzgrau](http://codefury.net), that's who.

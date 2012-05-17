@@ -132,3 +132,81 @@ pre {
 	padding-left: 10px;
 	border-left: 4px solid #3879D9;
 }
+
+/* Add nag */
+#adnag-root {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    /*font-family: "Arial"; */
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #fcfcfc;
+    z-index: 200000;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#fcfcfc));
+    background-image: -webkit-linear-gradient(top,#fff,#fcfcfc);
+    background-image: -moz-linear-gradient(top,#fff,#fcfcfc);
+    background-image: -ms-linear-gradient(top,#fff,#fcfcfc);
+    background-image: -o-linear-gradient(top,#fff,#fcfcfc);
+    background-image: linear-gradient(top,#fff,#fcfcfc);
+    border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+    z-index: 200000;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    display: inline-block;
+  
+/*  -webkit-box-shadow:0 3px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 3px 5px rgba(0, 0, 0, 0.5);
+    box-shadow:0 3px 5px rgba(0, 0, 0, 0.5);
+    -webkit-background-clip:padding-box;
+    -moz-background-clip:padding-box;
+    background-clip:padding-box;
+*/
+}
+
+#adnag-root .adnag-header {
+    border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+    background-color: #005F2C;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#333));
+    background-image: -webkit-linear-gradient(top,#222,#333);
+    background-image: -moz-linear-gradient(top,#222,#333);
+    background-image: -ms-linear-gradient(top,#222,#333);
+    background-image: -o-linear-gradient(top,#222,#333);
+    background-image: linear-gradient(top,#222,#333);
+}
+
+.adnag-closed {
+    height: 33px;
+}
+
+#adnag-root .adnag-header a {
+	font-family: 'Arial';
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 8px;
+    display: block;
+}
+
+#adnag-root .adnag-body {
+    padding: 5px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#adnag-root .adnag-body p {
+    color: #808080;
+    font-style: italic;
+}
+
+#adnag-root .adnag-field span {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 10px;
+}
