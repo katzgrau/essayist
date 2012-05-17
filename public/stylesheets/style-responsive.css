@@ -54,6 +54,7 @@
 
     pre {
         margin-left: 10px;
+        overflow: hidden;
     }
 
     #nav li, #nav li a {
