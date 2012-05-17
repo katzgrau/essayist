@@ -21,8 +21,7 @@ Essayist is a bloggish app that lets you write your content in text (markdown) f
 
 ## Getting Started
 
-    $ git clone git://github.com/katzgrau/essayist
-    $ node app.js
+    $ git clone git://github.com/katzgrau/essayist && cd essayist && node app.js
 
 ## A Little Bit of a Rant
 
