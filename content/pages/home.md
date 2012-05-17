@@ -9,10 +9,10 @@ tags: an,essay,publishing,app
 
 Essayist is a bloggish app that lets you write your content in text (markdown) files. Okay, nothing crazy-original, but it was written because I wanted a site where:
 
-1. Readability was paramount
+1. Content was a first class citizen (ie, readability and portability are \#1)
 2. Writing new articles was really easy and lightweight
 3. It was performant if and when it got a lot of traffic
-4. You can get up an running locally or in production in a few
+4. You can get up and running locally or in production really fast
 5. Migrating to a new server isn't a pain
 
 ## See It Work
@@ -21,7 +21,19 @@ Essayist is a bloggish app that lets you write your content in text (markdown) f
 
 ## Getting Started
 
-    $ git clone git://github.com/katzgrau/essayist && cd essayist && node app.js
+    $ git clone git://github.com/katzgrau/essayist
+    $ cd essayist 
+    $ node app.js
+
+## 7 Other Cool Things Out of the Box
+
+1. Responsive layout
+2. SEO'd
+3. Supports multiple sites in one app
+4. Supports ads (well, one ad)
+5. Auto-gen'd sitemap
+6. RSS Feed (todo)
+7. Extendable (todo)
 
 ## A Little Bit of a Rant
 
