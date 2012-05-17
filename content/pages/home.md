@@ -17,7 +17,7 @@ Essayist is a bloggish app that lets you write your content in text (markdown) f
 
 ## See It Work
 
-[Check it out](http://essayst.herokuapp.com/)
+[Check it out](http://essayst.herokuapp.com/) or [get the code](https://github.com/katzgrau/essayist)
 
 ## Getting Started
 
