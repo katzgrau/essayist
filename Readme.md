@@ -1,6 +1,9 @@
 <!--
-Title: Foo
-Date: May
+title: An Essay Publishing App
+linktext: Home
+created: May 12, 2012
+listorder: 1
+tags: an,essay,publishing,app
 -->
 # An Essay Publishing App
 
@@ -10,6 +13,11 @@ Essayist is a bloggish app that lets you write your content in text (markdown) f
 2. Writing new articles was really easy and lightweight
 3. It was performant if and when it got a lot of traffic
 4. You can get up an running locally or in production in a few
+5. Migrating to a new server isn't a pain
+
+## See It Work
+
+[Check it out](http://essayst.herokuapp.com/)
 
 ## Getting Started
 
