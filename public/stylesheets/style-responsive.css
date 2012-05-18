@@ -60,6 +60,11 @@
         margin-left: 10px;
     }
 
+    #nav {
+        float: none;
+        margin: 15px 0px;
+    }
+
     #nav li, #nav li a {
         display: block !important;
     }
@@ -75,6 +80,10 @@
 
     #title {
         text-align: center;    
+    }
+
+    #subnav {
+        display: none;
     }
 
     h2 {

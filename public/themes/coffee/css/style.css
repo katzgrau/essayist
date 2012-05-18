@@ -6,3 +6,7 @@ body {
 	color: #FDFCDC;
 	text-shadow: 1px 1px #000;
 }
+
+#nav li a {
+    padding-right: 25px;
+}

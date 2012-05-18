@@ -37,7 +37,7 @@ app.get('/:slug', routes.content);
 
 // Configure Essayist
 essayist.config({
-  theme: 'boxers',
+  theme: 'coffee',
   title: 'Essayist',
   description: 'An Essay Publishing App',
   ads: false,

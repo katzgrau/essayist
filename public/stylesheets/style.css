@@ -55,6 +55,7 @@ h2, h3, h4, h5 {
 	margin: 20px 5px;
 	padding: 0;
 	list-style: none;
+    float: left;
 }
 
 #nav li {
@@ -70,6 +71,26 @@ h2, h3, h4, h5 {
 	border: none;
 }
 
+.rss {
+    display: inline-block;
+    background-image: url(../images/rss.png);
+    width: 28px;
+    height: 26px;
+    text-decoration: none;
+    border: none;
+}
+
+#subnav {
+    padding: 0;
+    list-style: none;
+    float: right;
+    margin-top: 25px;
+}
+
+#subnav li {
+    display: inline-block;
+}
+
 .essay {
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -82,6 +103,7 @@ h2, h3, h4, h5 {
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
     margin-bottom: 30px;
+    position: relative;
 }
 
 a {
@@ -211,4 +233,8 @@ pre {
     font-weight: bold;
     display: block;
     padding-bottom: 10px;
+}
+
+.clear {
+    clear: both;
 }

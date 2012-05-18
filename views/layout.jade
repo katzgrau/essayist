@@ -22,12 +22,20 @@ html
     #main
       #title= title
 
-      ul#nav
-        for page in pages
+      div
+        ul#nav
+          for page in pages
+            li
+              a(href='/' + page.slug)= page.meta.linktext || page.title        
+        ul#subnav
           li
-            a(href='/' + page.slug)= page.meta.linktext || page.title
+            if showRss
+              a.rss(href='/feed')
 
-      .essay!= body
+      .clear
+
+      .essay
+        !=body
 
       if disqusShortname
         include _disqus
