@@ -31,6 +31,10 @@
         margin-left: 10px;
     }
 
+    #adnag-root {
+        display: none;
+    }
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -78,5 +82,9 @@
         margin: 0px -15px;
         padding: 5px;
         text-align: center;
+    }
+
+    #adnag-root {
+        display: none;
     }
 }
