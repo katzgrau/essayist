@@ -31,6 +31,7 @@ app.configure('production', function(){
 // Routes
  
 app.get('/sitemap.xml', routes.sitemap);
+app.get('/feed', routes.feed);
 app.get('/', routes.content);
 app.get('/:slug', routes.content);
 

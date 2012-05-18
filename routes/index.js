@@ -12,3 +12,7 @@ exports.content = function(req, res, next) {
 exports.sitemap = function(req, res, next) {
     essayist.sitemap(req, res);
 };
+
+exports.feed = function(req, res, next) {
+    essayist.rss(req, res);
+};
